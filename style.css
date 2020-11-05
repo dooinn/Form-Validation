@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;0,900;1,500;1,700;1,900&display=swap');
+
+
+body {
+    background-image: linear-gradient(to right, rgb(73, 88, 226) , rgb(199, 147, 241));
+}
+
+h1 {
+    font-size: 4rem;
+    margin: 0;
+}
+
+h3, h4 {
+    color: rgb(107, 107, 107);
+    font-style: italic;
+}
+
+
+#container{
+    width:600px;
+    margin: 7rem auto;
+    padding-left: 3.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: rgb(0, 0, 0);
+    font-family: "Roboto", sans-serif;
+    border: solid 1px white;
+    background: white;
+    border-radius: 20px;
+}
+
+
+ul {
+    list-style:none;
+
+
+}
+#user-info > li {
+    clear:both;
+    padding-bottom: 50px;
+
+}
+
+#user-info {
+    padding: 0px;
+}
+
+.field {
+	float:left;
+	width:100px;
+	font-weight:bold;
+	font-size:0.9em;
+	text-align:right;
+	margin-right:15px;
+}
+input[type="text"], input[type="password"], input[type="email"] {
+	float:left;
+	width:350px;
+	height:35px;
+	border:1px solid #aaa;
+	border-radius:5px;
+	padding:5px;
+	margin:10px;
+
+}
+
+input:hover {
+    border: 3px solid rgb(233, 186, 255);
+
+}
+
+.r {
+	line-height:55px;
+}
+
+#buttons {
+    padding-left: 20px;
+}
+
+#buttons > li {
+    display:inline-block;
+    
+
+}
+button {
+	width:250px;
+    height:50px;
+	border:1px solid rgb(255, 255, 255);
+	background:#ffdafc;
+    font-size:0.9em;
+    cursor: pointer;
+    border-radius: 15px;
+
+
+}
+
+button:hover {
+    background-image: linear-gradient(to right, rgb(166, 111, 255) , rgb(199, 147, 241));
+}
